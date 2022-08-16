@@ -1,0 +1,30 @@
+#mainNav {
+  background: #ef9c9c;
+  color: rgba(35,23,23,0.71);
+}
+
+h1 {
+  color: rgba(35,23,23,0.71);
+  border-color: #FB9898;
+}
+
+.btn {
+  background: rgba(35,23,23,0.71);
+  border-width: 0px;
+  border-color: #fb9898;
+}
+
+.btn-primary:hover {
+  color: rgba(35,23,23,0.71);
+  background-color: #fbd6d6;
+  border-width: 0px;
+  border-color: #2c4fc3;
+}
+
+.btn-primary:active {
+  color: rgba(35,23,23,0.71);
+  background-color: #fbd6d6;
+  border-width: 0px;
+  border-color: rgba(35,23,23,0.71);
+}
+
