@@ -24,6 +24,7 @@
 body{
   background-color: #FFD1D1;
   width: 100%;
+  overflow-x: hidden;
 }
 .br-sm{
   border-radius: 15px;
