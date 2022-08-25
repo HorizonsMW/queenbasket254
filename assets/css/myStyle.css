@@ -4,12 +4,12 @@
 }
 @keyframes onLoad{
   from{
-    width: 150vw;
+    width: 150%;
     left: 50%;
     
   }
   to{
-    width: 100vw;
+    width: 100%;
     height: auto;
   }
 }
@@ -23,7 +23,7 @@
 }
 body{
   background-color: #FFD1D1;
-  width: 100vw;
+  width: 100%;
 }
 .br-sm{
   border-radius: 15px;
@@ -37,10 +37,10 @@ body{
 
 .bg-text-color{
 /*Color of the main background as the text color*/
-color: #FFD1D1;
+  color: #FFD1D1;
 }
 .navbar{
-  animation: onLoad 2s;
+  animation: onLoad 1s;
 }
 #mainNav, .navbar-brand,.nav-link{
   background: #FF5C5C;
@@ -92,4 +92,10 @@ footer a{
   text-decoration: none;
   color: #00252e;
 }
-
+.my-menu{
+  top: 10px;
+  right: 10px;
+  border: 2px #00252e;
+  width: 230px;
+  display: none;
+}
