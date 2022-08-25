@@ -1,12 +1,18 @@
 *{
   color: #00252e;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@font-face {
+  font-family: "Margoline";
+  src: url("./fonts/FontsFree-Net-Margolinedemo-Wya84.ttf") format('truetype');
+}
+@font-face {
+  font-family: "Cosmetic";
+  src: url('./fonts/FontsFree-Net-Cosmetic-Regular-40edb1da0338599d56e602b31f9f8028.ttf') format('opentype');
 }
 @keyframes onLoad{
   from{
     width: 150%;
     left: 50%;
-    
   }
   to{
     width: 100%;
@@ -21,10 +27,17 @@
    padding: auto;
   }
 }
+
+.brand-name{
+  font-family: "Margoline";
+  font-size: 35px;
+}
 body{
   background-color: #FFD1D1;
   width: 100%;
   overflow-x: hidden;
+  font-family: "Cosmetic";
+  font-weight: bold;
 }
 .br-sm{
   border-radius: 15px;
