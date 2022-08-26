@@ -110,6 +110,12 @@ footer a{
   top: 10px;
   right: 10px;
   border: 2px #00252e;
-  width: 230px;
+  width: 250px;
+  font-size: 25px;
   display: none;
 }
+.my-menu a{
+  font-size: 20px;
+  font-weight: bold;
+}
+
