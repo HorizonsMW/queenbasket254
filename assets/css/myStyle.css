@@ -9,6 +9,19 @@
   font-family: "Cosmetic";
   src: url('./fonts/FontsFree-Net-Cosmetic-Regular-40edb1da0338599d56e602b31f9f8028.ttf') format('opentype');
 }
+@font-face {
+  font-family: "Precious";
+  src: url('./fonts/FontsFree-Net-Precious.ttf') format('opentype');
+}
+@font-face {
+  font-family: "shasta-daily";
+  src: url('./fonts/shasta-daily-75033/ShastaDaily-OVrmp.ttf') format('opentype');
+}
+@font-face {
+  font-family: "hello-galleria";
+  src: url('./fonts/hello-galleria-sans-and-script-font-duo-60487/Hellogalleriasans-3zMPG.ttf') format('opentype');
+}
+
 @keyframes onLoad{
   from{
     width: 150%;
@@ -29,10 +42,33 @@
 }
 
 .brand-name{
-  font-family: "Margoline";
-  font-size: 35px;
+  font-family: "hello-galleria";
+  font-size: 25px;
+}
+.glow{
+  font-family: "precious";
+  top: 50%;
+  left: -40px;
+  rotate: -90deg;
+  z-index: 5;
+  font-size: 20px;
+}
+@media (max-width: 768px) {
+  .brand-name{
+    font-family: "hello-galleria";
+    font-size: 20px;
+  }
+  .glow{
+    font-family: "precious";
+    top: 50%;
+    left: -50px;
+    rotate: -90deg;
+    z-index: 5;
+    font-size: 20px;
+  }
 }
 body{
+  z-index: 1;
   background-color: #FFD1D1;
   width: 100%;
   overflow-x: hidden;
@@ -118,4 +154,5 @@ footer a{
   font-size: 20px;
   font-weight: bold;
 }
+
 

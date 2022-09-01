@@ -1,9 +1,6 @@
 console.log("Custom JS 1 Connected");
 //alert('Site Under development');
 
-function trry(){
-    console.log('work');
-}
 
 function closeNav() {
     document.getElementById("navMenu_md").style.display = "none";
@@ -26,11 +23,25 @@ function openNav(){
                 <li class=""><a class="text-decoration-none text-body h6" href="products.html">Products</a></li>
                 <li class=""><a class="text-decoration-none text-body h6" href="contacts.html">Contacts</a></li>
                 <li class=""><a class="text-decoration-none text-body h6" href="login.html">Log in</a></li>
-                <li class=""><a class="text-decoration-none text-body h6" href="signup.html">Sign up</a></li>
                 <li class=""><a class="text-decoration-none text-body h6" id="cart" href="shopping-cart.html">Cart</a></li>
             </ul>
         </div>
   </div>`;
   document.getElementById('navMenu_md').innerHTML = navMenu_items;
 
+}
+
+function showSignup(){
+    let formToHide = document.getElementById("loginForm");
+    formToHide.classList.add("d-none");
+    let formToShow = document.getElementById("singUpForm");
+    formToShow.classList.remove("d-none");
+    console.log("Signup");
+}
+function showLogin(){
+    let formToShow = document.getElementById("loginForm");
+    formToShow.classList.remove("d-none");
+    let formToHide = document.getElementById("singUpForm");
+    formToHide.classList.add("d-none");
+    console.log("Login");
 }
