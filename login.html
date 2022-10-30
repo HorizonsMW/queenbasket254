@@ -26,13 +26,13 @@
             </button>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contacts.html">Contacts</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="login.html">Log in</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/products/all">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/contacts">Contacts</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="/account/login">Log in</a></li>
                 </ul>
-                <a class="btn btn-primary ms-3" role="button" id="cart" href="shopping-cart.html"><img src="assets/bootstrap/icons/bootstrap-icons-1.9.1/cart.svg" alt="" class="bi"></a>
+                <a class="btn btn-primary ms-3" role="button" id="cart" href="/cart"><img src="assets/bootstrap/icons/bootstrap-icons-1.9.1/cart.svg" alt="" class="bi"></a>
             </div>
             <!--Custom Navmenu for small screens-->
             <div class="position-absolute my-menu p-4 bg-light bg-opacity-75 br-md" id="navMenu_md">
@@ -56,6 +56,7 @@
                             <div class="bs-icon-xl bs-icon-circle bs-icon-primary shadow bs-icon my-4"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-person">
                                     <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"></path>
                                 </svg></div>
+                            <!--LOGIN FORM-->
                             <form method="post">
                                 <div class="container" id="loginSignUp">
                                     <div id="loginForm" class="">
@@ -65,6 +66,11 @@
                                         <p class="text-muted"><a href="#" target="_blank">Forgot your password?</a></p>
                                         <p class="text-muted"><a href="#" onclick="showSignup()">Don't Have an Account?</a></p>
                                     </div>
+                                </div>
+                            </form>
+                            <!--SIGN UP FORM-->
+                            <form method="post">
+                                <div class="container" id="loginSignUp">
                                     <div id="singUpForm" class="d-none">
                                         <div class="mb-3"><input class="form-control" type="email" name="email" placeholder="Email"></div>
                                         <div class="mb-3"><input class="form-control" type="number" name="phoneNumber" placeholder="Phone Number"></div>

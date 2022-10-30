@@ -12,18 +12,18 @@ function openNav(){
     document.getElementById("navMenu_md").style.display = "block";
     let navMenu_items = `<div class="row">
     <div class="col align-items-end" >
-        <a class="text-danger "style=" text-decoration:none; position: absolute; top: 0; right: 25px; font-size: 30px; margin-left: 50px; border:2px white;" onclick="closeNav()">&times;</a>
+        <a class="text-danger "style=" text-decoration:none; position: absolute; cursor:pointer; top: 0; right: 25px; font-size: 30px; margin-left: 50px; border:2px white;" onclick="closeNav()">&times;</a>
     </div>
   </div>
   <div class="row mt-3 br-sm bg-white bg-opacity-50 p-3">
         <div class="col">
             <ul class="navbar-nav ms-auto">
-                <li class=""><a class="text-decoration-none text-body h6" href="index.html">Home</a></li>
-                <li class=""><a class="text-decoration-none text-body h6" href="services.html">Services</a></li>
-                <li class=""><a class="text-decoration-none text-body h6" href="products.html">Products</a></li>
-                <li class=""><a class="text-decoration-none text-body h6" href="contacts.html">Contacts</a></li>
-                <li class=""><a class="text-decoration-none text-body h6" href="login.html">Log in</a></li>
-                <li class=""><a class="text-decoration-none text-body h6" id="cart" href="shopping-cart.html">Cart</a></li>
+                <li class=""><a class="text-decoration-none text-body h6" href="/">Home</a></li>
+                <li class=""><a class="text-decoration-none text-body h6" href="/services">Services</a></li>
+                <li class=""><a class="text-decoration-none text-body h6" href="/products/all">Products</a></li>
+                <li class=""><a class="text-decoration-none text-body h6" href="/contacts">Contacts</a></li>
+                <li class=""><a class="text-decoration-none text-body h6" href="/account/login">Log in</a></li>
+                <li class=""><a class="text-decoration-none text-body h6" id="cart" href="/cart">Cart</a></li>
             </ul>
         </div>
   </div>`;
